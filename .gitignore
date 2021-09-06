@@ -117,6 +117,6 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-storybook/preview.webpack.lock.data
-storybook/preview.webpack.lock
-storybook/__sample__
+preview.webpack.lock.data
+preview.webpack.lock
+stories

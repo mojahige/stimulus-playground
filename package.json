@@ -1,6 +1,27 @@
 {
   "name": "stimulus-playground",
   "private": true,
+  "license": "ISC",
   "author": "mojahige (Yu Nozato)",
-  "license": "ISC"
+  "scripts": {
+    "build-storybook": "build-storybook",
+    "storybook": "start-storybook -p 6006"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@hotwired/stimulus": "^3.0.0-beta.1",
+    "@storybook/addon-actions": "^6.4.0-alpha.33",
+    "@storybook/addon-essentials": "^6.4.0-alpha.33",
+    "@storybook/addon-links": "^6.4.0-alpha.33",
+    "@storybook/builder-webpack5": "^6.4.0-alpha.33",
+    "@storybook/html": "^6.4.0-alpha.33",
+    "@storybook/manager-webpack5": "^6.4.0-alpha.33",
+    "@typescript-eslint/eslint-plugin": "^4.30.0",
+    "@typescript-eslint/parser": "^4.30.0",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "^2.3.2",
+    "typescript": "^4.4.2"
+  }
 }

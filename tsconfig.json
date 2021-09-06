@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "baseUrl": "./",
+    "paths": {
+      "https://cdn.skypack.dev/@hotwired/stimulus": ["./node_modules/@hotwired/stimulus"],
+      "@controllers/*": ["./controllers/*"]
+    }
+  }
+}
