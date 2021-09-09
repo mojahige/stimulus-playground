@@ -1,11 +1,11 @@
 import { Controller } from 'https://cdn.skypack.dev/@hotwired/stimulus';
 
-class HelloController extends Controller {
+class HelloBaseController extends Controller {
   readonly nameTarget!: HTMLElement;
   readonly outputTarget!: HTMLElement;
 }
 
-export default class extends (Controller as typeof HelloController) {
+export default class extends (Controller as typeof HelloBaseController) {
   static targets = ['name', 'output'];
 
   greet(): void {

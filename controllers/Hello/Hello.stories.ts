@@ -1,4 +1,4 @@
-import { Application } from '@hotwired/stimulus';
+import { Application } from 'https://cdn.skypack.dev/@hotwired/stimulus';
 import HelloController from './Hello';
 
 const app = Application.start();
