@@ -93,7 +93,7 @@ export default class extends (Controller as typeof SliderBaseController) {
   getSlidePosition(direction: SlideDirection): number | null {
     const slideTargetItem = this.getSlideItem(direction);
 
-    return slideTargetItem ? slideTargetItem.offsetLeft : null;
+    return slideTargetItem?.offsetLeft ?? null;
   }
 
   getSlideItem(direction: SlideDirection): HTMLElement | null {
