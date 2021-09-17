@@ -113,10 +113,10 @@ export default class extends (Controller as typeof SliderBaseController) {
     }
 
     if (calcStepItemIndex > itemTargets.length - 1) {
-      return itemTargets.at(-1) || null;
+      return itemTargets[itemTargets.length - 1] || null;
     }
 
-    return itemTargets.at(calcStepItemIndex) || null;
+    return itemTargets[calcStepItemIndex] || null;
   }
 
   getFirstItemDisplayedInViewport(): HTMLElement | undefined {
