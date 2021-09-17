@@ -10,7 +10,7 @@ export default class extends (Controller as typeof HelloBaseController) {
 
   greet(): void {
     this.outputTarget.textContent = `Hello, ${
-      (this.nameTarget as HTMLInputElement).value ?? 'Stimulus'
+      (this.nameTarget as HTMLInputElement).value || 'Stimulus'
     }!`;
   }
 }
