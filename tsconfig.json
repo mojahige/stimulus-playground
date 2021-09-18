@@ -9,7 +9,9 @@
     "skipLibCheck": true,
     "baseUrl": "./",
     "paths": {
-      "https://cdn.skypack.dev/@hotwired/stimulus": ["./node_modules/@hotwired/stimulus"],
+      "https://cdn.skypack.dev/@hotwired/stimulus": [
+        "./node_modules/@hotwired/stimulus"
+      ],
       "@controllers/*": ["./controllers/*"]
     }
   }

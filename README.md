@@ -1,6 +1,7 @@
 # Stimulus Playground
 
-## Using 
+## Using
+
 - [Stimulus](https://stimulus.hotwired.dev/)
   - ⚠️ v3.0.0-beta.1
 - [Storybook](https://storybook.js.org/)

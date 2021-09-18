@@ -1,9 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  stories: [
-    '../controllers/**/*.stories.@(js|jsx|ts|tsx)',
-  ],
+  stories: ['../controllers/**/*.stories.@(js|jsx|ts|tsx)'],
   addons: ['@storybook/addon-links', '@storybook/addon-essentials'],
   core: {
     builder: 'webpack5',
