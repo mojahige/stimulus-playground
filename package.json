@@ -6,7 +6,8 @@
   "scripts": {
     "build-storybook": "build-storybook",
     "storybook": "start-storybook -p 6006",
-    "serve": "http-server ./storybook-static -c-1"
+    "serve": "http-server ./storybook-static -a localhost -c-1 -p 6006",
+    "test:playwright": "playwright test"
   },
   "devDependencies": {
     "@babel/core": "^7.15.5",
