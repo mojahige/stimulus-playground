@@ -1,5 +1,5 @@
 import { Application } from 'https://cdn.skypack.dev/@hotwired/stimulus';
-import HelloController from './Hello';
+import HelloController from './HelloController';
 
 const app = Application.start();
 

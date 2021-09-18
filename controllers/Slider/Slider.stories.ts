@@ -1,6 +1,6 @@
 import { Story, Meta } from '@storybook/html';
 import { Application } from 'https://cdn.skypack.dev/@hotwired/stimulus';
-import SliderController from './Slider';
+import SliderController from './SliderController';
 import { build, Props } from './builder';
 import './Slider.css';
 
