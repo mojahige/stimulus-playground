@@ -120,3 +120,4 @@ dist
 preview.webpack.lock.data
 preview.webpack.lock
 stories
+storybook-static
