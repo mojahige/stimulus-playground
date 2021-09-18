@@ -10,6 +10,7 @@
   "devDependencies": {
     "@babel/core": "^7.15.5",
     "@hotwired/stimulus": "^3.0.0-beta.2",
+    "@playwright/test": "^1.14.1",
     "@storybook/addon-actions": "^6.4.0-alpha.33",
     "@storybook/addon-essentials": "^6.4.0-alpha.33",
     "@storybook/addon-links": "^6.4.0-alpha.33",
