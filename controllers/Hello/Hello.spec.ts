@@ -1,13 +1,11 @@
 import { test, expect } from '../../settings/test/fixture';
 
-test('basic test', async ({ page, storybookURL }) => {
+test('basic test', async ({ page, previewIframeName, storybookURL }) => {
   await page.goto(storybookURL);
 
   await page.click('#storybook-explorer-tree :text("Hello")');
 
-  const previewIframe = await page.frame({
-    name: 'storybook-preview-iframe',
-  });
+  const previewIframe = await page.frame(previewIframeName);
 
   if (previewIframe == null) {
     throw new Error(`storybook-preview-iframe is not found.`);
